@@ -36,7 +36,8 @@ specifically for each command as such:
  ------------------------------------------------
 
 #opcode operation
- 1 Read request (RRQ)
+```
+ 1 Read request (RRQ) 
  2 Write request (WRQ)
  3 Data (DATA)
  4 Acknowledgment (ACK)
@@ -46,7 +47,7 @@ specifically for each command as such:
  8 Delete request (DELRQ)
  9 Broadcast file added/deleted (BCAST)
  10 Disconnect (DISC)
-
+```
 
 ## Connections Interface 
 This interface should map a unique ID for each active client
