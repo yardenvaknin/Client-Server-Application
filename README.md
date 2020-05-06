@@ -30,12 +30,12 @@ There are two types of commands, Server-to-Client and Client-to-Server.
 The commands begin with 2 bytes (short) to describe the opcode. The rest of the message will be defined
 specifically for each command as such: 
 2 bytes Length defined by command
-
+```
  ------------------------------------------------
  | Opcode | ... |                               |                          
  ------------------------------------------------
-
-#opcode operation
+```
+## opcode operation
 ```
  1 Read request (RRQ) 
  2 Write request (WRQ)
