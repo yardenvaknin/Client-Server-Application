@@ -23,9 +23,9 @@ For each command, a different length of data needs to be read according to it’
 
 ## Supported Commands
 The extended TFTP supports various commands needed in order receive and upload files.
-There are two types of commands, Server-to-Client and Client-to-Server. The commands
-begin with 2 bytes (short) to describe the opcode. The rest of the message will be defined
-specifically for each command as such:<br/>
+There are two types of commands, Server-to-Client and Client-to-Server. <br/>
+The commands begin with 2 bytes (short) to describe the opcode.
+The rest of the message will be defined specifically for each command as such:<br/>
 2 bytes Length defined by command.
 
 ## Client-to-Server packets
